@@ -6,8 +6,6 @@ FROM ${RESTY_IMAGE_BASE}:${RESTY_IMAGE_TAG}
 LABEL maintainer="Coloynle <Coloynle@gmail.com>"
 
 # Docker Build Arguments
-ARG RESTY_IMAGE_BASE="ubuntu"
-ARG RESTY_IMAGE_TAG="bionic"
 ARG RESTY_VERSION="1.19.9.1"
 ARG RESTY_LUAROCKS_VERSION="3.8.0"
 ARG RESTY_OPENSSL_VERSION="1.1.1l"
